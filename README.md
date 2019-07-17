@@ -5,11 +5,6 @@
 This is a fork of [edge-js](https://github.com/agracio/edge-js) adapted to support [Electron](https://github.com/electron/electron/).
 
 Compatible with
- * Electron 1.6.x - Node.js v7.4.0.
- * Electron 1.7.x - Node.js v7.9.0.
- * Electron 1.8.x - Node.js v8.2.1.
- * Electron 2.0.x - Node.js v8.9.3.
- * Electron 3.0.x - Node.js v10.2.0.
  * Electron 4.0.4+ - Node.js v10.11.0.
  * Electron 5.0.x - Node.js v12.0.0.
  
