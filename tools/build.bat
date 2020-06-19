@@ -46,29 +46,7 @@ if %ERRORLEVEL% neq 0 (
 
 :gyp
 
-if "%3" equ "7.9.0" (
-    SET target=1.7.6
-) else if "%3" equ "6.5.0" (
-    SET target=1.4.4
-) else if "%3" equ "7.4.0" (
-    SET target=1.6.2
-) else if "%3" equ "8.2.1" (
-    SET target=1.8.1
-) else if "%3" equ "8.9.3" (
-    SET target=2.0.14
-) else if "%3" equ "10.2.0" (
-    SET target=3.0.10
-) else if "%3" equ "10.11.0" (
-    SET target=v4.0.4
-) else if "%3" equ "12.0.0" (
-    SET target=v5.0.3
-) else if "%3" equ "12.4.0" (
-    SET target=v6.0.2
-) else if "%3" equ "12.8.1" (
-    SET target=v7.1.1
-) else if "%3" equ "12.13.0" (
-    SET target=v8.0.0
-) else if "%3" equ "12.14.1" (
+if "%3" equ "12.14.1" (
     SET target=v9.0.0
 ) else (
     echo edge-electron-js does not support Node.js %3.

@@ -5,16 +5,6 @@
 This is a fork of [edge-js](https://github.com/agracio/edge-js) adapted to support [Electron](https://github.com/electron/electron/).
 
 Compatible with
- * Electron 1.6.x - Node.js v7.4.0.
- * Electron 1.7.x - Node.js v7.9.0.
- * Electron 1.8.x - Node.js v8.2.1.
- * Electron 2.x - Node.js v8.9.3.
- * Electron 3.x - Node.js v10.2.0.
- * Electron 4.0.4+ - Node.js v10.11.0.
- * Electron 5.x - Node.js v12.0.0.
- * Electron 6.x - Node.js v12.4.0.
- * Electron 7.x - Node.js v12.8.1
- * Electron 8.x - Node.js v12.13.0
  * Electron 9.x - Node.js v12.14.1
  
 Usage is the same as edge or edge-js, replace `require('edge')` or `require('edge-js')` with `require('electron-edge-js')`:
